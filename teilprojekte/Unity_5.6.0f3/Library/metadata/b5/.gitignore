@@ -1,0 +1,4 @@
+#* sorgt für das ignorieren von allen Dateien
+# !.gitignore beachtet diese Datei
+*
+!.gitignore
