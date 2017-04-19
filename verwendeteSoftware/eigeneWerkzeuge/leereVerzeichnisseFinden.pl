@@ -195,7 +195,7 @@ if ($gitignoreLoeschen) {
   	    print "Datei $datei sollte erzeugt werden\n";
   	  } else {
       	open(FH,">$datei") or die "Konnte Datei $datei nicht zum Schreiben öffnen: $!\n";
-      	print FH "\#* sorgt für das ignorieren von allen Dateien\n\# !.gitignore beachtet diese Datei\n*\n!.gitignore\n";
+      	print FH "\# * sorgt für das ignorieren von allen Dateien\n\# !.gitignore beachtet diese Datei\n*\n!.gitignore\n";
       	close FH;
       }
   	}
